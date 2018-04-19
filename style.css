@@ -551,7 +551,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   line-height: 48px;
 }
 
-.entry-content-single p {
+.entry-content-single {
   color: #4a4c5c;
   font-size: 16px;
   line-height: 25px;
@@ -564,15 +564,9 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   margin-top: 25px;
 }
 
-
-
 .widget_search, .widget_recent_comments, .widget_archive, .widget_categories, .widget_meta {
   display: none;
 }
-
-
-
-
 
 .rpwwt-post-date {
   color: #c6c6c6;
@@ -582,8 +576,6 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   font-weight: 400;
   letter-spacing: -0.3px;
 }
-
-
 
 .site-content-wrapper {
   display: -webkit-flex;
@@ -596,7 +588,6 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   margin-top: 0;
   position: relative;
 }
-
 
 /*.hentry-wrapper {
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.18);
@@ -623,8 +614,6 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 /*.posts-articles:first-child > .hentry-wrapper-wicore {
   height: initial;
 }*/
-
-
 
 /*.posts-articles:first-child {
   padding-bottom: 42px !important;
