@@ -27,24 +27,24 @@
             </a>
           </div>
           <div class="site-footer-link-space">
-            <a href="http://www.ican.mx/about-us.html">
+            <a href="http://www.ican.mx/nosotros.html">
               <span class="ican-site-link ican-font-metropolis-regular">NOSOTROS</span>
             </a>
           </div>
           <div class="site-footer-link-space">
-            <a href="http://www.ican.mx/cic-en.html">
+            <a href="http://www.ican.mx/cic.html">
               <span class="ican-site-link ican-font-metropolis-regular">CIC</span>
             </a>
           </div>
         </div>
         <div class="site-footer-links-container">
           <div class="site-footer-link-space">
-            <a href="home.html">
+            <a href="">
               <span class="ican-site-link ican-font-metropolis-regular link-selected">BLOG</span>
             </a>
           </div>
           <div class="site-footer-link-space">
-            <a href="http://www.ican.mx/">
+            <a href="http://www.ican.mx/contacto">
               <span class="ican-site-link ican-font-metropolis-regular">CONTACTO</span>
             </a>
           </div>
@@ -75,7 +75,7 @@
     </div>
     <div class="site-footer-notice-container">
       <a href="http://www.ican.mx/aviso-de-privacidad.html">
-        <span class="ican-site-link ican-font-metropolis-regular">Notice of Privacy</span>
+        <span class="ican-site-link ican-font-metropolis-regular">Aviso de privacidad</span>
       </a>
     </div>
   </footer>
