@@ -503,7 +503,6 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  text-transform: uppercase;
 }
 
 .entry-titledate-container {
@@ -557,6 +556,16 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   line-height: 25px;
   margin-top: 0;
   padding: 0px 0px 30px 48px;
+}
+
+.entry-content-single h1, h2, h3, h4, h5, h6, p {
+  padding: 0px 0px 10px 0;
+}
+
+.entry-content-single h1, h2, h3, h4, h5, h6,
+.entry-content-single .copyContainer {
+  font-family: "lato-regular";
+  font-weight: 400;
 }
 
 /*------------------------------------------------------------*/
