@@ -28,7 +28,11 @@ if ( ! function_exists( 'shoreditch_entry_footer' ) ) :
  */
 function shoreditch_entry_footer() {
 	if ( 'post' === get_post_type() ) {
-		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+		if (is_single()) {
+			$time_string = '<time class="entry-date published updated lato-italic" datetime="%1$s">%2$s</time>';
+		} else {
+			$time_string = '<time class="entry-date published updated ican-font-hindsiliguri-regular" datetime="%1$s">%2$s</time>';
+		}
 		if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
 			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
 		}
@@ -40,7 +44,11 @@ function shoreditch_entry_footer() {
 			esc_html( get_the_modified_date() )
 		);
 
-		$posted_on = sprintf( '<a rel="bookmark ican-font-hindsiliguri-regular">Posted on %2$s</a>', esc_url( get_permalink() ), $time_string );
+		if (is_single()) {
+			$posted_on = sprintf( '<a rel="bookmark"><span class="lato-italic">Posted on</span> %2$s</a>', esc_url( get_permalink() ), $time_string );
+		} else {
+			$posted_on = sprintf( '<a rel="bookmark"><span class="ican-font-hindsiliguri-regular">Posted on</span> %2$s</a>', esc_url( get_permalink() ), $time_string );
+		}
 
 		if ( is_sticky() && ! is_single() ) {
 			$posted_on = sprintf( '<a rel="bookmark">%2$s</a>', esc_url( get_permalink() ), esc_html__( 'Featured Post', 'shoreditch' ) );
