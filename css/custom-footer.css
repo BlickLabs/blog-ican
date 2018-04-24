@@ -137,6 +137,15 @@
   margin-top: 2px;
 }
 
+.footer-warnings-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-warnings-container div:first-child {
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .site-footer {
     height: 330px;
@@ -181,6 +190,6 @@
   }
 
   .ican-site-link {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
