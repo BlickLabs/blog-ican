@@ -73,10 +73,17 @@
         </div>
       </div>
     </div>
-    <div class="site-footer-notice-container">
-      <a href="http://www.ican.mx/aviso-de-privacidad.html">
-        <span class="ican-site-link ican-font-metropolis-regular">Aviso de privacidad</span>
-      </a>
+    <div class="footer-warnings-container">
+      <div class="site-footer-notice-container">
+        <a href="http://www.ican.mx/aviso-de-privacidad.html">
+          <span class="ican-site-link ican-font-metropolis-regular">Aviso de privacidad</span>
+        </a>
+      </div>
+      <div class="site-footer-notice-container">
+        <a href="http://www.ican.mx/aviso-legal.html">
+          <span class="ican-site-link ican-font-metropolis-regular">Aviso legal</span>
+        </a>
+      </div>
     </div>
   </footer>
 
