@@ -61,7 +61,7 @@
         </a>
       </div>
       <div class="site-navbar__menu nav-selected-link-container">
-        <a href="http://blog.wicore.mx/" class="site-navbar__menu-link active">
+        <a href="http://blog.ican.mx/" class="site-navbar__menu-link active">
           <span class="ican-font-metropolis-semibold ican-site-link nav-link nav-selected-link">BLOG</span>
         </a>
       </div>
@@ -112,7 +112,7 @@
             <span class="hamburger-text">CIC</span>
           </div>
         </a>
-        <a data-attribute="" href="cic.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://blog.ican.mx/" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
