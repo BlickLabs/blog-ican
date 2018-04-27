@@ -61,7 +61,7 @@
         </a>
       </div>
       <div class="site-navbar__menu nav-selected-link-container">
-        <a href="cic.html" class="site-navbar__menu-link active">
+        <a href="http://blog.wicore.mx/" class="site-navbar__menu-link active">
           <span class="ican-font-metropolis-semibold ican-site-link nav-link nav-selected-link">BLOG</span>
         </a>
       </div>
