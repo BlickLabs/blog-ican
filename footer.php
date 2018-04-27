@@ -39,7 +39,7 @@
         </div>
         <div class="site-footer-links-container">
           <div class="site-footer-link-space">
-            <a href="">
+            <a href="http://blog.ican.mx/">
               <span class="ican-site-link ican-font-metropolis-regular link-selected">BLOG</span>
             </a>
           </div>
