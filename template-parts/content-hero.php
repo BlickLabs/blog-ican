@@ -20,7 +20,6 @@
       <h3 class="single-post-info lato-italic"><?php shoreditch_entry_footer(); ?></h3>
     </div>
     <?php
-      shoreditch_entry_meta();
       the_title( '<h1 class="entry-title lato-bold">', '</h1>' );
     ?>
   </div><!-- .entry-hero-wrapper -->
