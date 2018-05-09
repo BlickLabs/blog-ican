@@ -16,7 +16,7 @@ function shoreditch_entry_meta() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'shoreditch' ) );
 		if ( $categories_list && shoreditch_categorized_blog() ) {
-			printf( '<div class="entry-meta"><span class="cat-links">' . $categories_list . '</span></div>' );
+			printf( '<div class="entry-meta"><span class="cat-links">' . 'Categorías: ' . $categories_list . '</span></div>' );
 		}
 	}
 }
@@ -26,6 +26,15 @@ if ( ! function_exists( 'shoreditch_entry_footer' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time, tags and comments.
  */
+
+function shoreditch_tags_links_post() {
+	/* translators: used between list items, there is a space after the comma */
+	$tags_list = get_the_tag_list( '', esc_html__( ', ', 'shoreditch' ) );
+	if ( $tags_list ) {
+		printf( '<span class="tags-links">' . $tags_list . '</span>' );
+	}
+}
+
 function shoreditch_entry_footer() {
 	if ( 'post' === get_post_type() ) {
 		if (is_single()) {
@@ -55,12 +64,6 @@ function shoreditch_entry_footer() {
 		}
 
 		echo '<span class="posted-on">' . $posted_on . '</span>';
-
-		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'shoreditch' ) );
-		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . $tags_list . '</span>' );
-		}
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
