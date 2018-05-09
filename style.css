@@ -568,6 +568,52 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   font-weight: 400;
 }
 
+.entry-content-single p a {
+  color: #4a4c5c;
+  text-decoration: underline;
+}
+
+.entry-content-single p a:hover {
+  text-decoration: none;
+}
+
+.single-post-tags {
+  color: #a3a3a6;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 48px;
+}
+
+.single-post-tags span {
+  color: #a3a3a6;
+}
+
+.single-post-tags .tags-links a {
+  color: #a3a3a6;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.single-post-categories {
+  padding-left: 48px;
+
+}
+
+.single-post-categories .cat-links {
+  color: #a3a3a6;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.single-post-categories .cat-links a {
+  color: #a3a3a6;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 16px;
+  text-transform: lowercase;
+}
+
 /*------------------------------------------------------------*/
 #content {
   margin-top: 25px;
@@ -3739,6 +3785,11 @@ aside.widget-area {
 
   .site-main-wicore {
     flex-direction: column;
+  }
+
+  .single-post-categories,
+  .single-post-tags {
+    padding: 0 24px;
   }
 
   /*.posts-articles {
