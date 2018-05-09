@@ -99,8 +99,8 @@
     }
     ?>
   </div><!-- .hentry-wrapper -->
-  <? if (is_single()) { ?>
-    <h3 class="single-post-categories lato-regular"><? shoreditch_entry_meta(); ?></h3>
-    <h3 class="single-post-tags lato-regular">Tags: <? shoreditch_tags_links_post(); ?></h3>
+  <?php if (is_single()) { ?>
+    <h3 class="single-post-categories lato-regular"><?php shoreditch_entry_meta(); ?></h3>
+    <h3 class="single-post-tags lato-regular">Tags: <?php shoreditch_tags_links_post(); ?></h3>
   <? } ?>
 </article><!-- #post-## -->
